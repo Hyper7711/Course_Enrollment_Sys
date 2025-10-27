@@ -1,0 +1,160 @@
+/* === Global Styles === */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Centralized Wrapper */
+.container {
+    flex: 1;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 18px;
+    background: #34495e;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #2c3e50;
+}
+
+/* Course & Enrollment Lists */
+.course-list, .enrolled-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.course-card {
+    background: #fafafa;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.course-card h3 {
+    margin: 10px 0;
+    color: #34495e;
+}
+
+.course-card p {
+    font-size: 13px;
+    color: #7f8c8d;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn-enroll {
+    background: #27ae60;
+    color: white;
+}
+
+.btn-enroll:hover {
+    background: #1e8449;
+}
+
+.btn-delete {
+    background: #e74c3c;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #c0392b;
+}
+
+.btn-profile {
+    background: #2980b9;
+    color: white;
+}
+
+.btn-profile:hover {
+    background: #21618c;
+}
+
+/* Forms */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form button {
+    background: #34495e;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background: #2c3e50;
+}
+
+/* Footer */
+footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 13px;
+    margin-top: auto;
+}
