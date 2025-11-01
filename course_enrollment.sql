@@ -83,3 +83,4 @@ VALUES
 ('Data Structures', 'CS203', 'Prof. Rohan Mehta', '10 Weeks', 2999.00, 'Explore arrays, linked lists, stacks, and queues.'),
 ('Web Development', 'CS301', 'Prof. Anjali Deshmukh', '12 Weeks', 3499.00, 'Build modern web applications using HTML, CSS, JS, and PHP.');
 
+
