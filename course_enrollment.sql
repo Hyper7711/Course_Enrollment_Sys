@@ -82,5 +82,3 @@ VALUES
 ('Database Management Systems', 'CS202', 'Dr. Suresh Kulkarni', '8 Weeks', 2499.00, 'Understand relational databases and SQL queries.'),
 ('Data Structures', 'CS203', 'Prof. Rohan Mehta', '10 Weeks', 2999.00, 'Explore arrays, linked lists, stacks, and queues.'),
 ('Web Development', 'CS301', 'Prof. Anjali Deshmukh', '12 Weeks', 3499.00, 'Build modern web applications using HTML, CSS, JS, and PHP.');
-
-
