@@ -228,6 +228,6 @@ if (isset($_POST['login'])) {
         </div>
     </div>
 
-    <footer>© <?php echo date("Y"); ?> Course Enrollment System | Designed by Rohit Badgujar</footer>
+    <footer>© <?php echo date("Y"); ?> Course Enrollment System </footer>
 </body>
 </html>
