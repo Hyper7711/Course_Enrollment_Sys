@@ -2,7 +2,6 @@
 CREATE DATABASE IF NOT EXISTS course_enrollment;
 USE course_enrollment;
 
-
 -- ----------------------------
 -- Table: student
 -- ----------------------------
