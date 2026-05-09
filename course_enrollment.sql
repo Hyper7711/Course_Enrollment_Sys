@@ -12,7 +12,6 @@ CREATE TABLE IF NOT EXISTS student (
     email VARCHAR(100) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
-
 -- ----------------------------
 -- Table: admin
 -- ----------------------------
